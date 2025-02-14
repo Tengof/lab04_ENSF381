@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab4 - Exercise 1</title>
+    </head>
+
+    <body>
+        <h1>JavaScript Lab</h1>
+        <script>
+            let v1 = 1;
+            const v2 = 2;
+            
+            console.log("v1 (declared with let) =", v1);
+            console.log("v2 (declared with const) =", v2);
+            
+            v1 = 3;
+            console.log("v1 is now", v1);
+
+            // v2 = 4;
+            // console.log("v2 is now", v2);
+
+            string1 = "Hello, World!";
+            string2 = "JavaScript is fun!";
+
+            console.log(`Length of string1 is ${string1.length}`)
+
+            stringconcat = string1 + string2;
+            console.log(`string1 and string2 concatenated is ${stringconcat}`);
+
+            string2 = string2.replace("fun", "awesome");
+            console.log(`string2 is now "${string2}"`);
+
+            name = "Alice";
+            age = 25;
+            my_string = `My name is ${name} and I am ${age} years old.`;
+            console.log(my_string);
+
+            const date = new Date();
+            console.log(date);
+
+            const year = date.getFullYear();
+            console.log(`The year is ${year}`);
+
+            const month = date.getMonth() + 1;
+            console.log(`The month number is ${month}`);
+
+            const day = date.getDay();
+            console.log(`The weekday number is ${day}`);
+
+            let weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            console.log(`The current day is ${weekdays[day]}`);
+        </script>
+    </body>
+</html>
